@@ -10,7 +10,7 @@ function App() {
 
   const submit = async (e) => {
     e.preventDefault();
-    await axios.post("http://localhost:3000/appointments", form);
+    await axios.post("https://fullstacker.onrender.com/appointments", form);
     alert("Appointment booked");
   };
 
